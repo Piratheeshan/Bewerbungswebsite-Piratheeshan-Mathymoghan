@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+
+  display: flex;
+  justify-content: center;   /* horizontal zentrieren */
+  align-items: center;       /* vertikal zentrieren */
+  min-height: 100vh;         /* volle Höhe */
+}
+
+main {
+  max-width: 700px;
+  width: 100%;
+}
+
+header {
+  background: #E30613; /* kräftiges Rot */
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.8rem;
+}
+
+section {
+  background: white;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h3 {
+  color: #E30613; /* Rot für Abschnittsüberschriften */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #555;
+}
